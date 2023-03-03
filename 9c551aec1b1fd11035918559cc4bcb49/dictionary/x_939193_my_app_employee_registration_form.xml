@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="77de1b1e1bd9251035918559cc4bcb68" label="Employee Registration " max_length="40" name="x_939193_my_app_employee_registration_form" type="collection">
+        <element label="Employee Name" mandatory="true" max_length="40" name="backend_name" reference="sys_user" type="reference"/>
+        <element label="Date of Joining" mandatory="true" max_length="40" name="date_of_joining" type="glide_date"/>
+        <element label="Email Id" mandatory="true" max_length="40" name="email_id" type="string"/>
+        <element label="Employee Id" mandatory="true" max_length="40" name="employee_id" type="string"/>
+        <element choice="1" label="Employee Type" mandatory="true" max_length="40" name="employee_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Full Time" sequence="0" value="10"/>
+                <element inactive_on_update="false" label="Part Time" sequence="1" value="20"/>
+            </choice>
+        </element>
+        <element label="Salary" max_length="20" name="salary" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Blood Group" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="O-" sequence="0" value="o-"/>
+                <element inactive_on_update="false" label="O+" sequence="1" value="o"/>
+                <element inactive_on_update="false" label="A-" sequence="2" value="a-"/>
+                <element inactive_on_update="false" label="A" sequence="3" value="a"/>
+                <element inactive_on_update="false" label="B-" sequence="4" value="b-"/>
+                <element inactive_on_update="false" label="B" sequence="5" value="b"/>
+                <element inactive_on_update="false" label="AB-" sequence="6" value="ab-"/>
+                <element inactive_on_update="false" label="AB" sequence="7" value="ab"/>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
+            </choice>
+        </element>
+        <element label="Mobile Number" max_length="40" name="xyz" type="string"/>
+    </element>
+</database>
