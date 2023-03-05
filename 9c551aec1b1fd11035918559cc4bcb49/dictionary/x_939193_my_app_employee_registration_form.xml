@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="77de1b1e1bd9251035918559cc4bcb68" label="Employee Registration " max_length="40" name="x_939193_my_app_employee_registration_form" type="collection">
-        <element label="Employee Name" mandatory="true" max_length="40" name="backend_name" reference="sys_user" type="reference"/>
+        <element label="Employee Name" mandatory="true" max_length="40" name="backend_name" type="string"/>
         <element label="Date of Joining" mandatory="true" max_length="40" name="date_of_joining" type="glide_date"/>
-        <element label="Email Id" mandatory="true" max_length="40" name="email_id" type="string"/>
+        <element label="Email Id" mandatory="true" max_length="40" name="email_id" type="condition_string"/>
         <element label="Employee Id" mandatory="true" max_length="40" name="employee_id" type="string"/>
         <element choice="1" label="Employee Type" mandatory="true" max_length="40" name="employee_type" type="choice">
             <choice>
