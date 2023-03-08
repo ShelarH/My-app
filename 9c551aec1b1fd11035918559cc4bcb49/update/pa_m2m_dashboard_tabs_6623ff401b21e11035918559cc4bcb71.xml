@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="NeedIt Application">a8137f401b21e11035918559cc4bcbb6</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 19:21:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6623ff401b21e11035918559cc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a8137f401b21e11035918559cc4bcbb6</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My App" source="x_939193_my_app">9c551aec1b1fd11035918559cc4bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My App">9c551aec1b1fd11035918559cc4bcb49</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_6623ff401b21e11035918559cc4bcb71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 19:21:57</sys_updated_on>
+        <tab display_value="NeedIt Application - New Tab">aa237f401b21e11035918559cc4bcbc7</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>
