@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="989e4f101b30211035918559cc4bcba5" extends="task" label="NeedIt" max_length="40" name="x_939193_my_app_needit" type="collection">
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:#FF0000;33:#FF7F50;66:#FFD700;90:#32CD32,target_field=target&#13;&#10;" label="% Complete" max_length="15" name="complete" type="percent_complete"/>
         <element label="Entry" max_length="3000" name="entry" type="string"/>
         <element label="New field 1" max_length="40" name="new_field_1" type="integer"/>
+        <element label="Target" max_length="20" name="target" type="decimal"/>
         <element label="Active" max_length="40" name="u_boolean_1" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_choice_2" type="string">
             <choice>
