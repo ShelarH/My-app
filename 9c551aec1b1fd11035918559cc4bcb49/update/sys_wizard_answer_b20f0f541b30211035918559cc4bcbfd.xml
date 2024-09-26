@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>NeedIt</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>NeedIt</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">a67056e4f90211108c8bd16244dfe708</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-31 04:35:32</sys_created_on>
+        <sys_id>b20f0f541b30211035918559cc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt</sys_name>
+        <sys_package display_value="My App" source="x_939193_my_app">9c551aec1b1fd11035918559cc4bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My App">9c551aec1b1fd11035918559cc4bcb49</sys_scope>
+        <sys_update_name>sys_wizard_answer_b20f0f541b30211035918559cc4bcbfd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 04:35:32</sys_updated_on>
+        <table/>
+        <target_url>x_939193_my_app_needit.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
